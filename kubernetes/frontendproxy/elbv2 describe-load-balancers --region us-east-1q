@@ -1,0 +1,208 @@
+{
+    "NetworkInterfaces": [
+        {
+            "Association": {
+                "AllocationId": "eipalloc-0b5b42bde87a4d0f6",
+                "AssociationId": "eipassoc-0fa15b9bd079e1576",
+                "IpOwnerId": "590999018668",
+                "PublicDnsName": "ec2-34-193-232-192.compute-1.amazonaws.com",
+                "PublicIp": "34.193.232.192"
+            },
+            "Attachment": {
+                "AttachTime": "2026-05-23T14:44:01+00:00",
+                "AttachmentId": "eni-attach-0c656c24c03621c6e",
+                "DeleteOnTermination": false,
+                "DeviceIndex": 1,
+                "NetworkCardIndex": 0,
+                "InstanceOwnerId": "amazon-elb",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "us-east-1a",
+            "Description": "ELB app/k8s-default-frontend-6e54782b3e/9dea6b713f6b0458",
+            "Groups": [
+                {
+                    "GroupId": "sg-0f24647dfe0e23b68",
+                    "GroupName": "k8s-traffic-myekscluster-3a5309e36f"
+                },
+                {
+                    "GroupId": "sg-0fd3bec614e3db5dd",
+                    "GroupName": "k8s-default-frontend-901d26891d"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "02:5d:01:9d:84:b3",
+            "NetworkInterfaceId": "eni-06a2d90e0ffa1126c",
+            "OwnerId": "590999018668",
+            "PrivateDnsName": "ip-10-0-4-65.ec2.internal",
+            "PublicDnsName": "ec2-34-193-232-192.compute-1.amazonaws.com",
+            "PublicIpDnsNameOptions": {
+                "DnsHostnameType": "public-ipv4-dns-name",
+                "PublicIpv4DnsName": "ec2-34-193-232-192.compute-1.amazonaws.com"
+            },
+            "PrivateIpAddress": "10.0.4.65",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "AllocationId": "eipalloc-0b5b42bde87a4d0f6",
+                        "AssociationId": "eipassoc-0fa15b9bd079e1576",
+                        "IpOwnerId": "590999018668",
+                        "PublicDnsName": "ec2-34-193-232-192.compute-1.amazonaws.com",
+                        "PublicIp": "34.193.232.192"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-0-4-65.ec2.internal",
+                    "PrivateIpAddress": "10.0.4.65"
+                }
+            ],
+            "RequesterId": "amazon-elb",
+            "RequesterManaged": true,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-05ff1e3d4158f65ab",
+            "TagSet": [],
+            "VpcId": "vpc-0045846453d6f58ac",
+            "Operator": {
+                "Managed": false,
+                "HiddenByDefault": false
+            },
+            "AvailabilityZoneId": "use1-az1"
+        },
+        {
+            "Association": {
+                "AllocationId": "eipalloc-0bbffe499ffe3ea18",
+                "AssociationId": "eipassoc-0aa2188b5f5b0429f",
+                "IpOwnerId": "590999018668",
+                "PublicDnsName": "ec2-54-89-88-174.compute-1.amazonaws.com",
+                "PublicIp": "54.89.88.174"
+            },
+            "Attachment": {
+                "AttachTime": "2026-05-23T14:44:28+00:00",
+                "AttachmentId": "eni-attach-03c120624ae571261",
+                "DeleteOnTermination": false,
+                "DeviceIndex": 1,
+                "NetworkCardIndex": 0,
+                "InstanceOwnerId": "amazon-elb",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "us-east-1b",
+            "Description": "ELB app/k8s-default-frontend-6e54782b3e/9dea6b713f6b0458",
+            "Groups": [
+                {
+                    "GroupId": "sg-0f24647dfe0e23b68",
+                    "GroupName": "k8s-traffic-myekscluster-3a5309e36f"
+                },
+                {
+                    "GroupId": "sg-0fd3bec614e3db5dd",
+                    "GroupName": "k8s-default-frontend-901d26891d"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "12:f7:33:9a:0f:a5",
+            "NetworkInterfaceId": "eni-0300dec6fc90345e2",
+            "OwnerId": "590999018668",
+            "PrivateDnsName": "ip-10-0-5-9.ec2.internal",
+            "PublicDnsName": "ec2-54-89-88-174.compute-1.amazonaws.com",
+            "PublicIpDnsNameOptions": {
+                "DnsHostnameType": "public-ipv4-dns-name",
+                "PublicIpv4DnsName": "ec2-54-89-88-174.compute-1.amazonaws.com"
+            },
+            "PrivateIpAddress": "10.0.5.9",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "AllocationId": "eipalloc-0bbffe499ffe3ea18",
+                        "AssociationId": "eipassoc-0aa2188b5f5b0429f",
+                        "IpOwnerId": "590999018668",
+                        "PublicDnsName": "ec2-54-89-88-174.compute-1.amazonaws.com",
+                        "PublicIp": "54.89.88.174"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-0-5-9.ec2.internal",
+                    "PrivateIpAddress": "10.0.5.9"
+                }
+            ],
+            "RequesterId": "amazon-elb",
+            "RequesterManaged": true,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-048cd3560a0c67f35",
+            "TagSet": [],
+            "VpcId": "vpc-0045846453d6f58ac",
+            "Operator": {
+                "Managed": false,
+                "HiddenByDefault": false
+            },
+            "AvailabilityZoneId": "use1-az2"
+        },
+        {
+            "Association": {
+                "AllocationId": "eipalloc-0e8f1b8b81a58e53e",
+                "AssociationId": "eipassoc-0a1085f9d80bcd988",
+                "IpOwnerId": "590999018668",
+                "PublicDnsName": "ec2-3-224-181-237.compute-1.amazonaws.com",
+                "PublicIp": "3.224.181.237"
+            },
+            "Attachment": {
+                "AttachTime": "2026-05-23T14:44:50+00:00",
+                "AttachmentId": "eni-attach-0e9ef7ffc3450caa6",
+                "DeleteOnTermination": false,
+                "DeviceIndex": 1,
+                "NetworkCardIndex": 0,
+                "InstanceOwnerId": "amazon-elb",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "us-east-1c",
+            "Description": "ELB app/k8s-default-frontend-6e54782b3e/9dea6b713f6b0458",
+            "Groups": [
+                {
+                    "GroupId": "sg-0f24647dfe0e23b68",
+                    "GroupName": "k8s-traffic-myekscluster-3a5309e36f"
+                },
+                {
+                    "GroupId": "sg-0fd3bec614e3db5dd",
+                    "GroupName": "k8s-default-frontend-901d26891d"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "0a:ff:ca:31:fa:a5",
+            "NetworkInterfaceId": "eni-094f2f236bd792a0a",
+            "OwnerId": "590999018668",
+            "PrivateDnsName": "ip-10-0-6-231.ec2.internal",
+            "PublicDnsName": "ec2-3-224-181-237.compute-1.amazonaws.com",
+            "PublicIpDnsNameOptions": {
+                "DnsHostnameType": "public-ipv4-dns-name",
+                "PublicIpv4DnsName": "ec2-3-224-181-237.compute-1.amazonaws.com"
+            },
+            "PrivateIpAddress": "10.0.6.231",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "AllocationId": "eipalloc-0e8f1b8b81a58e53e",
+                        "AssociationId": "eipassoc-0a1085f9d80bcd988",
+                        "IpOwnerId": "590999018668",
+                        "PublicDnsName": "ec2-3-224-181-237.compute-1.amazonaws.com",
+                        "PublicIp": "3.224.181.237"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-0-6-231.ec2.internal",
+                    "PrivateIpAddress": "10.0.6.231"
+                }
+            ],
+            "RequesterId": "amazon-elb",
+            "RequesterManaged": true,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-03d03be3d19b2ebc4",
+            "TagSet": [],
+            "VpcId": "vpc-0045846453d6f58ac",
+            "Operator": {
+                "Managed": false,
+                "HiddenByDefault": false
+            },
+            "AvailabilityZoneId": "use1-az4"
+        }
+    ]
+}
